@@ -24,8 +24,8 @@ CREATE TABLE operadores (
     dni INT UNIQUE NOT NULL,
     id_ubicacion INT,
     telefono INT,
-    fecha_nacimiento DATETIME,
-    fecha_de_ingreso DATETIME,
+    fecha_nacimiento DATE,
+    fecha_de_ingreso DATE,
     email VARCHAR(50) UNIQUE NOT NULL
 );
 
